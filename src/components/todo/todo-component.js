@@ -1,5 +1,5 @@
 
-export const ToDoComponent = ({ name, description }) => {
+export const button = ({ name, description }) => {
   return (
     <>
       <span>{name}</span>

@@ -1,0 +1,29 @@
+.box-movies{
+  display: flex;
+  flex-direction: row;
+  margin: 55px 60px 10px 40px;
+}
+
+.title{
+  font-size: 35px;
+  margin: 4px 0 10px 0;
+}
+
+.date{
+  font-size: 20px;
+  color: blue;
+}
+
+.title-resume{
+  margin-top: 50px;
+}
+
+.resume{
+  margin-top: 10px;
+  width: 290px;
+}
+
+.rating{
+  margin: 1px 0px 0 230px;
+  color: darkorange;
+}

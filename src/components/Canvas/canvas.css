@@ -1,0 +1,33 @@
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 98vw;
+  min-height: 100%;
+}
+
+.box-left{
+  width: 23%;
+  min-height: 100%;
+  background-color: #f2f5f7;
+}
+
+.box-title-left{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #ced8e0;
+}
+
+.title-welcome{
+  font-size: 35px;
+  color: #4e5c68;
+}
+
+.box-modal-movie{
+  padding: 50px 30px;
+  font-size: 20px;
+}
+
+
+

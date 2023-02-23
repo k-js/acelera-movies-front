@@ -43,8 +43,8 @@ export const Login = () => {
   return (
     <>
      <div className="container">
-      <div className='box'>
-      <form method='GET'>
+      <div className="container-form">
+      <form method='POST'>
         <div className="inputContainer">
           <label htmlFor="email">Login</label>
           <input

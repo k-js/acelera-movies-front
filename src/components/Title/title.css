@@ -1,0 +1,11 @@
+.box-right{
+  width: 77%;
+}
+
+.box-title-right{
+  margin: 64px 60px 10px 60px;
+  display: flex;
+  background-color: #ced8e0;
+  font-size: 55px;
+  padding: 10px;
+}

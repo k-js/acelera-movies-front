@@ -1,0 +1,22 @@
+  .ModalContainer{
+    margin: 0 0 20px 0;
+  background-color: #ced8e0;
+  border: none;
+  }
+
+  .mascara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 25%;
+    background-color: #f2f5f7;
+    position: fixed;
+    overflow: auto;
+    width: 70%;
+    height: 100vh;
+    z-index: 1;
+    left: 0;
+    top: 8px;
+    border: 10px solid #ced8e0;
+  }
+ 

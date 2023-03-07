@@ -1,5 +1,6 @@
+import Modal from '../Modal/modal'
 import './canvas.css'
-export const Canvas = ({ href }) => {
+export const Canvas = () => {
   return (
     <>
     <div className="box">
@@ -8,7 +9,7 @@ export const Canvas = ({ href }) => {
           <h3 className="title-welcome">Hello, User!</h3>
         </div>
         <div className="box-modal-movie">
-            <a href = { href }>Add Movie</a>
+          <Modal type='createMovie'/>
           <hr/>
         </div>
       </div>

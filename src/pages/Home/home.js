@@ -7,7 +7,7 @@ export const Home = () => {
     <>
     <div className="box">
       <div className="box-left">
-        <Canvas href='#'/>
+        <Canvas/>
       </div>
       <div className="box-right">
         <Title title={'All Movies'} />

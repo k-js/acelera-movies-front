@@ -9,6 +9,11 @@
   margin: 4px 0 10px 0;
 }
 
+.title:hover {
+  color: blue;
+  cursor: pointer; 
+}
+
 .date{
   font-size: 20px;
   color: blue;

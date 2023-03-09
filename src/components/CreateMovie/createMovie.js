@@ -106,7 +106,7 @@ const CreateMovie = ({ onClick = x => x }) => {
       <label className='label' htmlFor='note'>Stars</label>
       <input className='input' type='number' name='note' id='note' onChange={handleChange} />
     </div>
-    <button className='submit' onClick={handleClick}>Edit Movie</button>
+    <button className='submit' onClick={handleClick}>Add Movie</button>
   </form>
     </div>
   )

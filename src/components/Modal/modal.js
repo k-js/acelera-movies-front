@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ButtonModal from '../ButtonModal/buttonModal'
 import CreateMovie from '../CreateMovie/createMovie'
-import EditModal from '../EditModal/editModal'
+import EditMovie from '../EditMovie/editMovie'
 import './modal.css'
 
 const Modal = ({ id, type }) => {
@@ -23,7 +23,7 @@ const Modal = ({ id, type }) => {
               <CreateMovie onClick={() => setToggle(toggle => !toggle)}/>
             }
             {type === 'editMovie' &&
-              <EditModal id={id} onClick={() => {
+              <EditMovie id={id} onClick={() => {
                 setToggle(toggle => !toggle)
                 location.reload()
               }} />

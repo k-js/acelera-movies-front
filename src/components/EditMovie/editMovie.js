@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { client } from '../../service/client'
-import './editModal.css'
+import './editMovie.css'
 
-const EditModal = ({ id, onClick = x => x }) => {
+const EditMovie = ({ id, onClick = x => x }) => {
   const [data, setData] = useState({
     title: '',
     subtitle: '',
@@ -108,4 +108,4 @@ const EditModal = ({ id, onClick = x => x }) => {
   )
 }
 
-export default EditModal
+export default EditMovie

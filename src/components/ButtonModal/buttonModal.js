@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { faPen } from '@fortawesome/free-solid-svg-icons'
-import './button.css'
+import './buttonModal.css'
 
 const ButtonModal = ({ type, onClick = x => x }) => {
   return (

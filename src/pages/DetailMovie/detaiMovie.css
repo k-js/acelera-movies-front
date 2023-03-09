@@ -1,0 +1,67 @@
+.caben{
+  display: flex;
+  position: relative;
+}
+
+.tit{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn{
+  position: absolute;
+  top: 85px;
+  left: 860px;
+}
+
+.bloco{
+
+  margin: 200px 0 0 36px;
+}
+
+.movies-container{
+  display: inline-block;
+}
+
+.content{
+  display: inline-block;
+}
+
+.details{
+  margin: 50px 0 30px 30px;;
+}
+
+.gen{
+  margin: 0px 0 30px 0px;
+  width: 20vh;
+  border: 2px solid rgb(196, 190, 190);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(196, 190, 190);
+  border-radius: 10px 20px;
+}
+
+.ti{
+  font-size: 30px
+}
+
+.note{
+  display: flex;
+  justify-content: end;
+  margin-left: 730px;
+  color: darkorange;
+}
+
+.y{
+  margin: 10px 0 0 0 ;
+}
+
+.u{
+  margin-bottom: 40px;
+}
+
+.spn{
+  font-size: 18px;
+}
